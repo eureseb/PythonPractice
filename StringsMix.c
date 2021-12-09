@@ -53,6 +53,7 @@ char *mix(char* str1,char* str2 ){
 
     int* map2 = count_letters(lc_str1);
     int* map1 = count_letters(lc_str2);
+    
     int* res_map = (int*)malloc(sizeof(int)*26);
     int* what_string = (int*)malloc(sizeof(int)*26);
 
